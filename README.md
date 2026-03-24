@@ -5,7 +5,7 @@ This is the repository relative to the _Python Workflow Guide_, which is availab
 ## Clone and test
 First clone the repository with
 ```bash
-git clone git@github.com:alessandropedone/python-guide
+git clone git@github.com:alessandropedone/py-guide
 ```
 This repository has one package (`src/pkg`) which is meant to perform polynomial regression on a artificial dataset, and select the best polynomial degree using 5-fold cross-validation.
 To test the code, first recreate the environment with
@@ -21,7 +21,7 @@ python -m src.pkg.main
 ## Repository structure
 The repository has the basic structure a project should follow, let's summarize it with `tree`:
 ```bash
-python-guide
+py-guide
 ├── .gitignore
 ├── README.md
 ├── docs
@@ -56,7 +56,7 @@ Inside `src/pkg` you find two files, that are:
 - `polyCV.py`: it's the implementation of the class that handles the entire set of tasks we want to perform.
 
 ## Documentation
-The documentation is obtained using Sphinx, and it's available at this [link](https://alessandropedone.github.io/python-guide/).
+The documentation is obtained using Sphinx, and it's available at this [link](https://alessandropedone.github.io/py-guide/).
 The important files are of two types:
 1. `conf.py`, that contains the information about the compiler. 
 2. `.rst` files, that contain the structure and content of our documentation.
